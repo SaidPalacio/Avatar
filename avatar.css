@@ -1,0 +1,37 @@
+/* Estilos CSS para el avatar */
+.thumbnail_container {
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.thumbnail_container img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.thumbnail_container.selected img {
+    border: 2px solid blue;
+}
+
+.img_container {
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.img_container img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.img_container.selected img {
+    border: 2px solid blue;
+}
+
+.main_img{
+    width: 100px;
+}
+
