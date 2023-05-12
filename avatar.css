@@ -3,6 +3,7 @@
     display: inline-block;
     cursor: pointer;
     margin-right: 10px;
+    margin-left: 420px;
 }
 
 .thumbnail_container img {
@@ -38,7 +39,47 @@
     margin-top: 0;
     margin-bottom:0 ;
     margin-right: 0;
-    margin-left: 800px;
+    margin-left: 525px;
 
 }
 
+#backButton {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #backButton:hover {
+    background-color: #0056b3;
+  }
+  
+  body {
+    background-image: url('./img/Niveles\ PEP-01.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+  
+}
+
+.active {
+    border-color: gold;
+    box-shadow: 0 0 5px gold;
+  }
+
+  .thumbnail {
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    border: 2px solid #ccc;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .thumbnail:hover {
+    transform: scale(1.2);
+  }

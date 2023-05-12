@@ -26,3 +26,8 @@ thumbnails.forEach (thumb => {
         main_img.src = thumb.src
     })
 })
+
+document.getElementById("backButton").addEventListener("click", function() {
+    history.back();
+  });
+  
