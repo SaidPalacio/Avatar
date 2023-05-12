@@ -30,4 +30,20 @@ thumbnails.forEach (thumb => {
 document.getElementById("backButton").addEventListener("click", function() {
     history.back();
   });
+
+  const selectButton = document.getElementById('selectButton');
+
+
+selectButton.addEventListener('click', () => {
+  // Obtener el avatar seleccionado
+  const selectedAvatar = document.querySelector('.thumbnail.selected');
+
+  if (selectedAvatar) {
+    // Realizar alguna acción con el avatar seleccionado
+    console.log(`Avatar seleccionado: ${selectedAvatar.alt}`);
+  } else {
+    console.log('No se ha seleccionado ningún avatar');
+  }
+});
+
   
