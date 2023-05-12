@@ -67,10 +67,6 @@
   
 }
 
-.active {
-    border-color: gold;
-    box-shadow: 0 0 5px gold;
-  }
 
   .thumbnail {
     width: 80px;
@@ -83,4 +79,7 @@
   
   .thumbnail:hover {
     transform: scale(1.2);
+    filter: brightness(120%);
+    border-color: gold;
+    box-shadow: 0 0 5px gold;
   }
