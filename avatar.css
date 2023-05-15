@@ -58,10 +58,12 @@
 }
 
 body {
+  background-color: #450be4;
   background-image: url('./img/Niveles\ PEP-01.png');
   background-repeat: no-repeat;
   background-attachment: fixed; 
   background-size: cover;
+  background-position: 0%;
 }
 
 .thumbnail {
